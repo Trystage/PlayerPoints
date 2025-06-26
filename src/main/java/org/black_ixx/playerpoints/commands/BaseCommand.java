@@ -51,7 +51,6 @@ public class BaseCommand extends PrimaryCommand {
     @Override
     protected CommandInfo createCommandInfo() {
         return CommandInfo.builder("points")
-                .aliases("p")
                 .permission("playerpoints.basecommand")
                 .arguments(ArgumentsDefinition.builder()
                         .optionalSub(
